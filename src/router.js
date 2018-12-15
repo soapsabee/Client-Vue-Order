@@ -23,5 +23,13 @@ export default new Router({
      path:'/orders',
      name: 'orders',
      component: () => import('./views/Order.vue')
-    }]
+    },
+    {
+      path:'/graph',
+      name:'graph',
+      component: () => import('./views/Graph.vue')
+    }
+  
+  
+  ]
 })
