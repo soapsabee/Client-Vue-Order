@@ -12,6 +12,7 @@ export default{
       labels :[],
       datasets:[
         {
+          label: '# ปริมาณ Order ของ ลูกค้า',
           data: [],
           backgroundColor: ["Red","Yellow","Purple"]
         }
@@ -20,7 +21,7 @@ export default{
           title:{
             display:true,
             position:"bottom",
-            text:"ปริมาณ Order ของ ลูกค้า"
+            text:"ชื่อลูกค้า"
           }
         }
     }
