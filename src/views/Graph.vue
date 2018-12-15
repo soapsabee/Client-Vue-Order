@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div v-if="datasets[0].data.length > 0" id="app">
     <chartjs-bar v-bind:labels="labels" v-bind:datasets="datasets" v-bind:option="option"></chartjs-bar>
   </div>
 </template>
@@ -20,7 +20,7 @@ export default{
           title:{
             display:true,
             position:"bottom",
-            text:"Fruits"
+            text:"ปริมาณ Order ของ ลูกค้า"
           }
         }
     }

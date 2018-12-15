@@ -184,6 +184,11 @@ export default {
           sortable: true,
           
         },
+           {
+          key: "title_of_courtesy",
+          sortable: true,
+          
+        },
         {
           key: "first_name",
           sortable: true,
@@ -199,11 +204,7 @@ export default {
           sortable: true,
           
         },
-          {
-          key: "title_of_courtesy",
-          sortable: true,
-          
-        },
+
           {
           key: "birth_date",
           sortable: true,
